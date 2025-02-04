@@ -1,4 +1,4 @@
-package com.desabisc.ds.guide.linear;
+package com.desabisc.ds.guide.linear.arrays.easy;
 
 import com.desabisc.ds.guide.linear.util.Utils;
 
