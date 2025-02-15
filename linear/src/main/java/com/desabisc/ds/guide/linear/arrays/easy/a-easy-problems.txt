@@ -1,0 +1,19 @@
+chatgpt
+Sum of Array Elements
+Write a method that takes an array of integers and returns the sum of all elements.
+
+Find the Maximum and Minimum
+Given an array of integers, determine the maximum and minimum values.
+
+Reverse an Array
+Implement a function that reverses an array of integers in place.
+
+Count Even and Odd Numbers
+Given an array of integers, count how many numbers are even and how many are odd.
+
+Check for a Specific Value
+Write a method that checks if a given number exists in an array.
+
+deepseek
+Check for Duplicates
+Write a program to check if an integer array contains any duplicate values.

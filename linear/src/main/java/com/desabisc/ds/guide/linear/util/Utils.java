@@ -11,7 +11,7 @@ public class Utils {
         for (int i = 0; i < total; i++) {
             randomNumbers[i] = random.nextInt(100) + 1;
         }
-        System.out.println("Random numbers:" + Arrays.toString(randomNumbers));
+        System.out.println("Random numbers: " + Arrays.toString(randomNumbers));
         return randomNumbers;
     }
 }
