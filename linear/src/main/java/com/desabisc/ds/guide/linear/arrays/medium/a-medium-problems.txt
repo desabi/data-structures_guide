@@ -14,6 +14,8 @@ Given two sorted arrays of integers, merge them into a single sorted array.
 Find the Missing Number
 Given an array containing n-1 unique numbers from 1 to n, find the missing number.
 
+---------------------------------------
+
 deepsek
 Find the Second Largest Element
 Write a program to find the second largest element in an integer array.
