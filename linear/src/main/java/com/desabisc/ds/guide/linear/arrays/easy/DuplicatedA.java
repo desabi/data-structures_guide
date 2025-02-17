@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Duplicates {
+public class DuplicatedA {
   public static void main(String[] args) {
     //int[] numbersA = new int[] {9, 2, 3, 6, 7, 4};
     int[] numbersB = new int[] {2, 5, 8, 10, 5, 1};
