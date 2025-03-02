@@ -14,7 +14,7 @@ public class MissingNumber {
     int[] numbersA = {1, 2, 4, 6, 3, 7, 8};
     int[] numbersB = {1, 2, 4, 5};
     int[] numbersC = {4, 2, 1, 5};
-    findMissingNumberC(numbersC);
+    findMissingNumberC(numbersA);
   }
 
   /**
@@ -87,12 +87,13 @@ public class MissingNumber {
    * @param numbers the array of integers.
    */
   private static void findMissingNumberC(int[] numbers) {
-    int n = numbers.length;
+    System.out.println("Numbers: " + Arrays.toString(numbers));
+    int n = numbers.length + 1;
 
     // calculate the sum of the array elements
     int sum = 0;
-    for (int number: numbers) {
-      sum+=number;
+    for (int index = 0; index < n - 1; index++) {
+      sum += numbers[index];
     }
     System.out.println("sum = " + sum);
 
