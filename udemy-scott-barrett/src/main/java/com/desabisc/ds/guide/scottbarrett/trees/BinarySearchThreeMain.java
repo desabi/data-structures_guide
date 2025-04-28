@@ -11,7 +11,11 @@ public class BinarySearchThreeMain {
     //containsRecursiveEg();
     //insertRecursiveEg();
     //minValueEg();
-    deleteNodeEg();
+    //deleteNodeEg();
+    breadthFirstSearchEg();
+    depthFirstSearchPreOrderEg();
+    depthFirstSearchPostOrderEg();
+    depthFirstSearchInOrderEg();
   }
 
   static void constructorEg() {
@@ -115,6 +119,44 @@ public class BinarySearchThreeMain {
     log.info("Root: {}", myBst.root.value);
     log.info("Root->Left: {}", myBst.root.left.value);
     log.info("Root->Right: {}", myBst.root.right);
+  }
 
+  // Tree Traversal Section
+  static void breadthFirstSearchEg() {
+    log.info("##### Breadth First Search Eg #####");
+    BinarySearchThree myBst = getBinarySearchThree();
+    log.info("{}", myBst.breadthFirstSearch());
+  }
+
+  static void depthFirstSearchPreOrderEg() {
+    log.info("##### Depth First Pre Order Search Eg #####");
+    BinarySearchThree myBst = getBinarySearchThree();
+    log.info("{}", myBst.depthFirstSearchPreOrder());
+  }
+
+  static void depthFirstSearchPostOrderEg() {
+    log.info("##### Depth First Post Order Search Eg #####");
+    BinarySearchThree myBst = getBinarySearchThree();
+    log.info("{}", myBst.depthFirstSearchPostOrder());
+  }
+
+  static void depthFirstSearchInOrderEg() {
+    log.info("##### Depth First In Order Search Eg #####");
+    BinarySearchThree myBst = getBinarySearchThree();
+    log.info("{}", myBst.depthFirstSearchInOrder());
+  }
+
+  static BinarySearchThree getBinarySearchThree() {
+    BinarySearchThree myBst = new BinarySearchThree();
+
+    myBst.insert(47);
+    myBst.insert(21);
+    myBst.insert(76);
+    myBst.insert(18);
+    myBst.insert(27);
+    myBst.insert(52);
+    myBst.insert(82);
+
+    return myBst;
   }
 }
